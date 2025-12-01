@@ -18,7 +18,7 @@ source ~/.aliases.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-export EDITOR=nvim
+export EDITOR="code -w"
 # export FZF_DEFAULT_COMMAND='ag -g ""'
 # export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
