@@ -18,8 +18,6 @@ source ~/.aliases.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
 export EDITOR=nvim
 # export FZF_DEFAULT_COMMAND='ag -g ""'
 # export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
